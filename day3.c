@@ -1,10 +1,4 @@
 //implement linear search to find key k in an array. Count and display the number of comparisons performed.
-/*
-Input:
-- First line: integer n (array size)
-- Second line: n space-separated integers
-- Third line: integer k (key to search)
-*/
 #include<stdio.h>
 int main(){
 int comparisons=0;
@@ -24,4 +18,5 @@ if(arr[i]==key){
 
 printf("Comparisons=%d",comparisons);
 return 0;
+
 }
